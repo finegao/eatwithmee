@@ -6,11 +6,16 @@ html body {
 .wrapper {
   width: 100vw;
   height: 100vh;
-  background-color: blue;
+  background-color: yellow;
 }
 
 #affdex_elements {
+  display: none;
   position: absolute;
   top: calc(100vh - 240px);
   left: 0;
+}
+
+#affdex_elements canvas {
+  display: none;
 }
